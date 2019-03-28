@@ -1,0 +1,129 @@
+Recall -
+Methods are mini programs otherwise known as algorithms
+When methods are done some value is typically returned.
+Void means no value is returned.
+
+Chacter Conversion - toLowerCase
+                     toUpperCase
+
+String Methords - startsWith ex t1.startsWith(t2)
+t1= "Computer Science Degree."
+t2= "Science"
+
+Computer science degree.startsWith science
+answer = False
+
+if t1.endsWith("Degree"){
+} = True
+
+If t1.regionMatches(9,t2,0,7)
+                   Start, Str, Start2, n
+
+                   String x = "this is a test"
+                   String y = "test"
+                   x.indexOf(y)
+
+                   returns 10
+
+                   x.indexOf("TEST")
+                   fails returns -1
+String t1 = "AAAAA";
+t1.indexOf("AA")
+
+returns 0
+t1.lastIndexOf("AA")
+returns 3
+
+Object Oriented Programming
+Constructors -
+Person p1 = new Person(...),
+person p2 = new Person ("Mike", "CalPoly","CS")
+Feed to constructor
+
+Substring gives you everything past a position
+COMPUTER S C I E N C E
+0123456789101112131415
+           |----------|
+t1.substring(10) ^
+
+Copy string complete use toCharArray
+
+if you want a piece of a string use getChars(start point, end point, destination, position)
+
+strings are immutable
+
+full.toString[]
+
+println(full) will print out an array
+
+trim - replace - concat
+
+String str = " AAABBBCCC ";
+
+trim return a new string that has blank spaces clipped at the end. returns a copy of string
+ str = str.trim(); replaces original
+
+replace - replaces one thing with another 2 inputs
+
+str.replace('B', 'x');
+
+String concat same as plus symbol - smashes 2 strings together brand new string
+
+str.concat("DDDD");
+
+returns DDDD at the end of the str string.
+
+str.trim.replace('B','x').concant('DDDD');
+
+convert interger into string
+
+int num = 2147394;
+int numberLength = String.valueOf(num).length();
+
+String Builder is not immuteable
+
+StringBuilder test = new StringBuilder("Hello. ");
+append modifies its own string does not return. - adds to the end
+
+insert (position, pushes content over to the right from position " test") puts content in the middle somewhere.
+
+replace - take your given string and swap the content at the given position. will push over the content if needed
+remove then insert^
+
+StringBuilder another = new StringBuilder('AABBAACC');
+another.deleteCharAt(5); deletes char at this position and moves the rest left.
+another.delete(2, 4); deleted position 2 and 3 only.  use it to go one past position you want removed
+
+another.setCharAt(0, 'X'); replaces position with letter
+
+println(another);
+println(another.toString()); returns a string
+
+Splitting -
+
+string csv = "blue orange red yellow";
+String[] tokens = csv.split(" ");
+for (String token : tokens)
+System.out.println(token);
+
+string email = "test@example.com";
+String[] moreTokens = email.split"[@.]";
+for (String token : moreTokens)
+System.out.println(moreTokens)
+
+compareto
+upper case is always before lower case
+upper case before lower case -1
+match results in 0
+
+slide 15 - autoboxing
+
+Integer x = 50;
+integer Var int
+integer obj = new integer(50);
+             |----------------|
+                    integer
+ArrayList<int> bad = new ArrayList<>(int); // wont work
+ArrayList<Integer> good = new ArrayList<Integer>();
+
+

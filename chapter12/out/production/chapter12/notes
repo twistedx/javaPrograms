@@ -1,0 +1,13 @@
+java foundation classes
+swing - visuals (Buttons, tabs ..)
+swing library always start with J (Jframe, JButton, JtextField)
+must call 4 methods - miniimum to get something on screen
+setTitle - String
+setSize - set height width of window
+setDefaultCloseOperation - java can run in the background without any window
+setVisible - true or false
+
+event driven programing - code waits for things to happen.
+polling opposite from event driven programming - checks per frame
+Swing library is visual
+AWT is functional

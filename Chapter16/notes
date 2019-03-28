@@ -1,0 +1,11 @@
+recursion a method that calls itself
+
+A method that calls itself.
+direct or indirect
+
+ternary operator is a ? ex-> int result =  x(12) > 5 ? (<- gets returned)100 : (<- is x is less that 5 return ->) 5000;
+
+binarysearch is very fast- good, list needs to be pre sorted-bad
+
+
+permutations - position matters

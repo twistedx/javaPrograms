@@ -1,0 +1,108 @@
+chapter 9 homework-
+
+after finding the greatest subscript print and delete. use remove
+data.remove(greatestsubscript)
+counter value associated to ip address for greatest value
+
+
+Chapter 10-
+
+Class is a custom data type.
+slide 3-
+
+super class or parent
+subclass or child class
+
+slide 4-
+constructor are unqiue because no return type.
+constrcutor can have parametters
+constrcutors that require parameters will error without inputs
+
+slide5-
+Super means go to my parent class and call constructor and provide these two parameters
+
+constrcutors with inheritance need to call something from the super class
+
+@override can be used to override a method that is in a inheritance subclass position
+
+constructor has to be setup for each inheritance
+
+poly morphism ability to take on many forms
+
+you can use super class with an instance of subclass
+
+User(super) test = new Student(subclass)
+
+@override superclass method with subclass method
+java will always favor the subclass method
+constructors all files have to be present constructors in super always get run first
+
+subclass needs to call constructor first line in super class
+
+slide 11-
+
+Sprite Super Class - Width, height, rotation, picture - in Super Mario it would be an unmoving picture of Mario move() move sprit in its own frame
+^
+Character going to be more specific sprite - name - dialog, HP, inventory, move() <-- literal x and y movement
+^^
+
+ AI Character - method called move()
+Player Character - move() - player input
+
+Sprite xyz = new PlayerCharacter;
+xyz move();  - bottom most in subclass would be called
+
+slide 12 -
+
+Object class is the most super class
+
+static only one copy of it across your whole program -
+
+Homework PS3 -
+
+Secret messsage into encrytpion cypher - scramble unreadable message - algorythim to scramble
+Cipher adds key
+decyper message -subtract key
+send to another person - dicypher -> secret message
+
+secret message plain text
+
+scrambled message is Ciphertext
+
+Notes 09/13/18
+Abstract -
+Abstract class means its missing one or more methods in there.
+Forces the sublclass to implement those methods.
+
+
+
+Shopping Cart
+  ^
+  |
+  | extends shopping cart
+Discount Cart  <- Public class DiscountCart extends ShoppingCart{
+
+        public void applySale(){
+         subtotal *= 0.9;
+
+}
+}
+}
+
+Interface - Slide 16
+Car      public interface Car not a class but a interface
+ ^
+ |
+ |
+Tesla
+
+Dash arrow means interface not a class
+in Tesla TurnLeft, TurnRight, accelerate, getSpeed.  (everything is static final public) based around int verison = 5;
+
+interface we will use for call back stuff.
+
+Classes can implement multiple interfaces but extend only one class. <-- test question
+
+
+
+

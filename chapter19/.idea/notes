@@ -1,0 +1,35 @@
+    Collections- unlimited storage / data management (methods) - abstract data types
+ /       |     \
+list    set    map
+| | |each element gets an index preserves the order-
+  | |only store unique elements - throw away duplicates, no specified ordering
+    |key value pairs - database lookup thing - no specified ordering
+
+    lambda expression - function that can be stored to a variable
+
+    consumer <Data type> doesnt return anything
+
+    Predicate simplifies to a true or a false - can be used with removeif returns True False
+
+    Set -
+
+    Hash Set
+    Tree Set - auto sort
+    Linked Hash Set
+
+       Map - HashMap
+    generating unique id's for each element
+
+    Hasing
+
+    Bucket - all the elements related in some sort of way- hashing function ( if statement )
+    hash function add up all characters (97 + 98 + 99) 294
+    mod by number of buckets 294 % 10 = 4 <-
+                            "cat" % 10 = 2 <-- stored location
+                            "HELLO!" % 10 = 5
+
+                            "tac" - hash collision
+
+                            hash code
+
+    Hash Tables

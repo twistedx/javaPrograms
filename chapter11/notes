@@ -1,0 +1,25 @@
+TRY
+
+CATCH
+CATCH
+Finally - always runs at the end - used to close things like close file
+
+Checked exception are required to catch - anytime a method throws something.  if its in the method signature - ex opening a file
+Runtime errores are optional - ex - number format exception - divide by zero -
+Error cannont catch - outside your program - computer ran our of memory or caught fire
+
+
+PrintWriter -
+allows you to call things like print and printline can send them to files that are open.
+PrintWriter outputFile = new PrinterWriter("t.txt");
+                              ^Deletes Content
+Memory -----   Storage
+Buffer then write ---->  t.txt
+
+Java uses unicode chart
+
+text file conforms to unicode
+Binary file music mages doc file,
+
+
+

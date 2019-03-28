@@ -1,0 +1,241 @@
+Sorting - rearranging values - each value must be comparable
+Search - finding something - many algorithims to do this
+
+Algorithim analysis - mathematically show one algorithim is faster then another.
+
+swap bad-                 Good-
+int x =5;                 int temp = x;
+int y = 10;               x = y;
+                          y = temp;
+
+O(log(base2)(N) <- search speed binary search
+Log(base2) (N)+1
+Divide by
+2
+
+/*
+
+    public static void sort(ArrayList<Product> data, int start, int end) {
+        if (start < end) {
+            int divide = partition(data, start, end);
+            sort(data, start, divide - 1);
+            sort(data, divide + 1, end);
+        }
+    }
+
+    public static int partition(ArrayList<Product> data, int start, int end) {
+        int pivotIndex = (start + end) / 2;  //integer math is OK
+        int pivotValue = data.get(pivotIndex);
+
+        Product t = data.get(start);  //preserve copy of starting element
+        data.set(start, pivotValue);  //put pivotValue at beginning
+        data.set(pivotIndex, t);  //put starting element in the middle
+
+        int endOfSmallElements = start;
+
+        for (int subscript = start + 1; subscript <= end; subscript++) {
+            if (Character.getNumericValue(name.charAt(0)) <= pivotIndex) {
+                endOfSmallElements++;
+
+                t = data.get(subscript);
+                data.set(subscript, data.get(endOfSmallElements));
+                data.set(endOfSmallElements, t);
+
+            }
+        }
+        t = data.get(endOfSmallElements);
+        data.set(endOfSmallElements, pivotValue);
+        data.set(start, t);
+
+        return endOfSmallElements;
+    }
+
+    */
+
+      public static void selectionSort(ArrayList<Product> data){
+            // loop that controls passes
+            int numPasses = 0;
+
+            for (int subscript = 0; subscript < data.size() - 1; subscript++){
+                int smallIndex = subscript;
+                int smallValue = name.compareToIgnoreCase(data.get(subscript).toString());
+
+                int numSwaps = 0;
+                int passLength = 0;
+                //swap loop
+
+                for (int current = subscript; current < data.size(); current++){
+                    if (name.compareTo(data.get(current).toString()) < smallValue){
+                        smallIndex = current; // where that msall value is
+                        smallValue = data.get(current); //what that small value is
+                    }
+                    passLength++;
+                }
+                int t = data.get(subscript);  //int t = x
+                data.set(subscript, smallValue);//x = y
+                data.set(smallIndex, t);// y = t
+                numSwaps++;
+                numPasses++;
+                // System.out.println("Pass #: " + numPasses + " # swamps " + numSwaps + " # of iterations on this swap " + passLength);
+            }
+        }
+
+        import java.io.File;
+        import java.io.FileNotFoundException;
+        import java.util.ArrayList;
+        import java.util.Scanner;
+
+
+        public class Product {
+
+            private static String name;
+            private static double price;
+            private static int quan;
+
+
+            public Product(String name) {
+                this.name = name;
+                this.price = 1;
+                this.quan = 1;
+            }
+
+            public Product(String name, double price, int quan) {
+                this.name = name;
+                this.price = price;
+                this.quan = quan;
+            }
+
+
+            public static ArrayList<Product> loadDatabase(String name) {
+
+                File f = new File(name);
+                ArrayList<Product> data = new ArrayList<>();
+                StringBuilder a = new StringBuilder();
+
+                try {
+                    Scanner inputFile = new Scanner(f);
+                    inputFile.nextLine();
+                    while (inputFile.hasNextLine()) {
+                        String temp = (inputFile.nextLine());
+                        //split price and quantity
+                        int t = temp.indexOf('$');
+                        int dot = temp.indexOf('.');
+
+                        //save the name
+                        String n1 = temp.substring(0, t).trim();
+                        //save the price
+                        String n2 = temp.substring(t + 1, dot + 3);
+                        //sane the quan
+                        String n3 = temp.substring(dot + 3, temp.length()).trim();
+        //                  Debugging code
+        //                System.out.println(n1 + " " + n2 + " " + n3);
+                        data.add(new Product(n1, Double.parseDouble(n2), Integer.parseInt(n3)));
+
+                    }
+                } catch (FileNotFoundException e) {
+                    System.out.println(name + " (The system cannot find the file specified)");
+                }
+                return data;
+            }
+
+            public static ArrayList<Product> loadSortedDatabase(String name) {
+
+                File f = new File(name);
+                ArrayList<Product> data = new ArrayList<>();
+
+
+                try {
+                    Scanner inputFile = new Scanner(f);
+                    inputFile.nextLine();
+                    while (inputFile.hasNextLine()) {
+                        String temp = (inputFile.nextLine());
+                        //split price and quantity
+                        int t = temp.indexOf('$');
+                        int dot = temp.indexOf('.');
+
+                        //save the name
+                        String n1 = temp.substring(0, t).trim();
+                        //save the price
+                        String n2 = temp.substring(t + 1, dot + 3);
+                        //sane the quan
+                        String n3 = temp.substring(dot + 3).trim();
+        //                  Debugging code
+         //              System.out.println(n1 + " " + n2 + " " + n3);
+
+                        data.add(new Product(n1, Double.parseDouble(n2), Integer.parseInt(n3)));
+                    }
+                  for (Product temp : data){
+                    System.out.println(temp);
+                  }
+
+                } catch (FileNotFoundException e) {
+                    System.out.println(name + " (The system cannot find the file specified)");
+                }
+                sort(data, 0 , data.size() - 1);
+                return data;
+            }
+
+            public static void sort(ArrayList<Product> data, int start, int end) {
+                if (start < end) {
+                    int divide = partition(data, start, end);
+                    sort(data, start, divide - 1);
+                    sort(data, divide + 1, end);
+                }
+            }
+
+            public static int partition(ArrayList<Product> data, int start, int end) {
+                int pivotIndex = (start + end) / 2;  //integer math is OK
+                Product pivotValue = data.get(pivotIndex);
+
+                Product t = data.get(start);  //preserve copy of starting element
+                data.set(start, (pivotValue));  //put pivotValue at beginning
+                data.set(pivotIndex, t);  //put starting element in the middle
+
+                int endOfSmallElements = start;
+
+                for (int subscript = start + 1; subscript <= end; subscript++) {
+                    if (data.get(subscript).getName().compareTo(pivotValue.getName()) < 0) {
+                        endOfSmallElements++;
+
+                        t = data.get(subscript);
+                        data.set(subscript, data.get(endOfSmallElements));
+                        data.set(endOfSmallElements, t);
+
+                    }
+                }
+                t = data.get(endOfSmallElements);
+                data.set(endOfSmallElements, pivotValue);
+                data.set(start, t);
+
+                return endOfSmallElements;
+            }
+
+
+            public String getName() {
+                return name;
+            }
+
+            public double getPrice() {
+                return price;
+            }
+
+            public int getQuantity() {
+                return quan;
+            }
+
+            public double getTotal() {
+                return (price * quan);
+            }
+
+            public String toString() {
+                if (quan > 1) {
+                    return String.format("%s costs $%,.2f. There are %d left. The cost to buy them all is $%,.2f.", getName(), getPrice(), getQuantity(), getTotal());
+                    //Fire TV costs $50.25. There are 23 left. The cost to buy them all is $1,155.75.\n
+                } else {
+                }
+                return String.format("%s costs $%,.2f. There is only %d left! The cost to buy them all is $%,.2f.", getName(), getPrice(), getQuantity(), getTotal());
+            }
+        }
+
+
+

@@ -1,0 +1,523 @@
+id,job,hourlyPrice,hours
+1,Human Resources Assistant II,$7.20,36
+2,Professor,$3.51,44
+3,Human Resources Assistant IV,$5.29,54
+4,VP Quality Control,$6.77,61
+5,Compensation Analyst,$9.17,36
+6,Web Developer II,$5.41,12
+7,Account Representative III,$2.97,23
+8,Assistant Professor,$5.82,6
+9,Paralegal,$1.28,15
+10,Operator,$6.15,78
+11,Staff Scientist,$3.03,6
+12,Social Worker,$3.66,78
+13,Office Assistant III,$2.55,52
+14,Safety Technician IV,$8.33,31
+15,VP Marketing,$7.80,55
+16,Recruiting Manager,$3.90,66
+17,Clinical Specialist,$1.95,59
+18,Safety Technician II,$3.12,18
+19,Project Manager,$3.95,93
+20,VP Sales,$2.32,2
+21,Senior Financial Analyst,$1.95,40
+22,Assistant Media Planner,$4.63,59
+23,Safety Technician II,$3.71,55
+24,Statistician II,$6.03,98
+25,Nurse Practicioner,$8.05,33
+26,General Manager,$6.13,49
+27,Director of Sales,$0.15,31
+28,Speech Pathologist,$5.30,100
+29,Teacher,$3.74,82
+30,Cost Accountant,$6.03,32
+31,Staff Scientist,$8.83,71
+32,Junior Executive,$2.87,62
+33,Information Systems Manager,$6.16,25
+34,Office Assistant I,$8.46,44
+35,Tax Accountant,$4.02,74
+36,Research Assistant I,$3.45,82
+37,Clinical Specialist,$8.41,73
+38,Analyst Programmer,$1.31,50
+39,Accounting Assistant I,$5.26,79
+40,Senior Sales Associate,$8.34,43
+41,Legal Assistant,$8.80,20
+42,Electrical Engineer,$0.54,63
+43,Civil Engineer,$7.73,27
+44,Dental Hygienist,$6.45,88
+45,Pharmacist,$8.90,69
+46,Biostatistician II,$9.66,81
+47,Account Representative I,$8.31,71
+48,VP Accounting,$6.77,32
+49,Human Resources Manager,$3.73,53
+50,Speech Pathologist,$6.50,67
+51,Research Nurse,$0.90,56
+52,Assistant Media Planner,$3.55,4
+53,Senior Sales Associate,$0.66,89
+54,Information Systems Manager,$5.07,7
+55,Nurse Practicioner,$6.77,79
+56,Research Nurse,$3.82,23
+57,Executive Secretary,$1.15,39
+58,Geologist II,$8.27,79
+59,Executive Secretary,$8.47,2
+60,Geological Engineer,$1.87,26
+61,Assistant Manager,$4.59,63
+62,Help Desk Technician,$2.96,68
+63,Environmental Specialist,$9.39,82
+64,Office Assistant IV,$9.33,13
+65,Financial Analyst,$8.22,39
+66,Geological Engineer,$5.14,95
+67,Programmer Analyst II,$1.37,1
+68,Dental Hygienist,$9.19,78
+69,VP Product Management,$2.39,40
+70,Nurse Practicioner,$4.06,9
+71,Programmer III,$1.05,19
+72,Administrative Officer,$4.43,4
+73,Senior Developer,$6.38,7
+74,Programmer IV,$6.74,29
+75,Software Engineer II,$9.14,84
+76,Geological Engineer,$8.11,94
+77,Staff Scientist,$3.50,33
+78,Graphic Designer,$9.21,37
+79,Tax Accountant,$0.75,51
+80,Senior Financial Analyst,$9.03,59
+81,Graphic Designer,$4.19,9
+82,Editor,$4.99,65
+83,Community Outreach Specialist,$1.30,39
+84,Research Assistant IV,$8.97,46
+85,Information Systems Manager,$8.59,46
+86,Geological Engineer,$0.49,55
+87,Tax Accountant,$7.37,99
+88,Analog Circuit Design manager,$6.10,25
+89,Administrative Officer,$1.59,96
+90,Engineer III,$1.49,51
+91,Paralegal,$7.31,7
+92,Marketing Manager,$1.10,12
+93,Research Assistant I,$4.72,29
+94,General Manager,$3.49,96
+95,Systems Administrator II,$0.86,28
+96,Junior Executive,$4.83,56
+97,Systems Administrator I,$5.71,62
+98,Assistant Media Planner,$0.52,34
+99,Geologist IV,$1.99,28
+100,Technical Writer,$5.05,96
+101,General Manager,$1.40,81
+102,Cost Accountant,$8.59,77
+103,Assistant Manager,$3.75,72
+104,Financial Analyst,$7.21,61
+105,Safety Technician IV,$7.69,93
+106,Help Desk Operator,$2.03,79
+107,Marketing Assistant,$8.92,85
+108,Engineer III,$3.14,96
+109,Computer Systems Analyst IV,$7.63,15
+110,Statistician III,$6.71,59
+111,Clinical Specialist,$5.84,22
+112,Analyst Programmer,$5.15,61
+113,VP Quality Control,$1.36,25
+114,Mechanical Systems Engineer,$6.00,73
+115,Research Associate,$4.40,16
+116,Legal Assistant,$3.87,2
+117,Geologist I,$6.99,56
+118,Engineer III,$0.34,96
+119,Geological Engineer,$1.43,22
+120,Recruiter,$7.59,72
+121,GIS Technical Architect,$1.86,27
+122,Structural Engineer,$1.90,90
+123,Analog Circuit Design manager,$4.68,53
+124,Internal Auditor,$9.37,19
+125,Assistant Manager,$7.88,76
+126,Human Resources Assistant II,$3.18,94
+127,Help Desk Technician,$5.77,60
+128,Financial Advisor,$1.41,30
+129,Structural Analysis Engineer,$5.60,11
+130,Data Coordiator,$6.53,43
+131,Clinical Specialist,$6.04,97
+132,Civil Engineer,$4.55,81
+133,Desktop Support Technician,$4.44,56
+134,Registered Nurse,$5.00,23
+135,Assistant Manager,$4.56,78
+136,Account Executive,$8.15,46
+137,Research Nurse,$3.97,5
+138,Web Developer I,$1.54,45
+139,Staff Scientist,$8.07,11
+140,Associate Professor,$0.03,24
+141,Geologist IV,$6.16,95
+142,Office Assistant II,$3.22,49
+143,Business Systems Development Analyst,$2.17,3
+144,Sales Representative,$5.25,53
+145,Programmer I,$2.00,80
+146,VP Sales,$6.23,40
+147,Systems Administrator III,$8.35,50
+148,Senior Cost Accountant,$4.09,51
+149,Data Coordiator,$5.28,4
+150,Help Desk Technician,$3.49,28
+151,Information Systems Manager,$8.96,86
+152,Senior Editor,$3.71,38
+153,Assistant Professor,$5.41,70
+154,VP Accounting,$0.53,27
+155,Associate Professor,$6.07,71
+156,Environmental Specialist,$7.45,25
+157,Associate Professor,$4.43,91
+158,Physical Therapy Assistant,$3.76,5
+159,Health Coach II,$2.43,65
+160,Systems Administrator I,$7.04,8
+161,VP Quality Control,$8.34,14
+162,Structural Analysis Engineer,$5.23,9
+163,Financial Advisor,$1.43,27
+164,Geological Engineer,$8.70,40
+165,Payment Adjustment Coordinator,$5.30,95
+166,Community Outreach Specialist,$7.95,37
+167,Budget/Accounting Analyst I,$9.50,14
+168,Geologist III,$6.04,83
+169,Product Engineer,$1.79,32
+170,Research Assistant II,$9.48,61
+171,Environmental Specialist,$6.75,25
+172,Staff Scientist,$0.64,89
+173,Marketing Manager,$3.21,57
+174,Graphic Designer,$2.10,34
+175,Civil Engineer,$2.45,74
+176,Marketing Manager,$0.02,20
+177,Sales Representative,$6.93,59
+178,Senior Developer,$6.18,37
+179,Statistician II,$2.39,79
+180,Geological Engineer,$1.29,25
+181,Social Worker,$0.56,91
+182,Paralegal,$6.17,40
+183,Editor,$5.36,48
+184,Accounting Assistant II,$7.30,48
+185,Assistant Professor,$3.46,94
+186,Accounting Assistant IV,$2.96,65
+187,General Manager,$6.47,2
+188,Chief Design Engineer,$5.75,29
+189,Database Administrator I,$7.81,95
+190,Account Coordinator,$7.40,50
+191,Automation Specialist I,$5.69,25
+192,Research Assistant IV,$6.66,82
+193,Financial Analyst,$3.67,48
+194,Community Outreach Specialist,$5.56,67
+195,General Manager,$0.46,77
+196,Account Representative II,$9.86,13
+197,Biostatistician I,$3.35,49
+198,Statistician II,$9.65,90
+199,Legal Assistant,$1.42,21
+200,Developer III,$1.60,6
+201,Assistant Media Planner,$1.89,19
+202,Structural Analysis Engineer,$8.93,2
+203,Director of Sales,$3.93,1
+204,Staff Scientist,$1.47,97
+205,GIS Technical Architect,$4.18,8
+206,Human Resources Assistant IV,$5.67,42
+207,VP Sales,$2.21,27
+208,Graphic Designer,$8.98,22
+209,Director of Sales,$1.77,99
+210,Teacher,$0.05,53
+211,Programmer III,$4.72,6
+212,Business Systems Development Analyst,$2.75,80
+213,Financial Advisor,$2.36,70
+214,Systems Administrator III,$6.65,66
+215,Geologist II,$9.31,52
+216,Assistant Manager,$9.09,12
+217,Human Resources Assistant III,$3.39,3
+218,Budget/Accounting Analyst I,$5.13,60
+219,Web Developer I,$1.12,88
+220,Geologist II,$6.45,100
+221,Staff Accountant I,$0.18,32
+222,Senior Developer,$8.32,8
+223,Accounting Assistant III,$8.55,90
+224,Senior Quality Engineer,$5.82,22
+225,Social Worker,$3.85,92
+226,Executive Secretary,$9.37,10
+227,Engineer IV,$6.74,59
+228,Graphic Designer,$9.98,65
+229,Senior Editor,$5.36,49
+230,Associate Professor,$6.03,77
+231,Systems Administrator IV,$2.62,58
+232,Internal Auditor,$5.89,67
+233,Director of Sales,$0.73,60
+234,Structural Engineer,$3.60,78
+235,Systems Administrator IV,$1.96,23
+236,Database Administrator II,$7.75,16
+237,Project Manager,$8.92,8
+238,Director of Sales,$9.47,51
+239,Automation Specialist IV,$6.20,89
+240,Nuclear Power Engineer,$4.39,75
+241,Sales Associate,$7.57,31
+242,Quality Engineer,$8.90,57
+243,Recruiting Manager,$7.26,45
+244,Desktop Support Technician,$7.20,100
+245,VP Product Management,$3.75,83
+246,Senior Cost Accountant,$8.38,80
+247,Media Manager II,$5.63,57
+248,Desktop Support Technician,$7.34,82
+249,Engineer IV,$0.83,46
+250,Assistant Manager,$9.17,75
+251,Assistant Manager,$1.10,40
+252,Assistant Media Planner,$3.75,88
+253,Food Chemist,$5.06,100
+254,Desktop Support Technician,$3.03,24
+255,Quality Engineer,$6.93,50
+256,Account Coordinator,$0.76,20
+257,VP Product Management,$4.30,25
+258,Legal Assistant,$5.85,11
+259,Account Representative III,$1.78,54
+260,Account Coordinator,$9.61,23
+261,Staff Accountant I,$3.56,36
+262,Executive Secretary,$0.59,57
+263,Sales Associate,$3.43,86
+264,Paralegal,$7.13,32
+265,Mechanical Systems Engineer,$4.91,21
+266,Assistant Media Planner,$7.93,36
+267,Quality Control Specialist,$0.51,39
+268,GIS Technical Architect,$8.08,30
+269,Senior Editor,$2.56,53
+270,Environmental Specialist,$8.15,28
+271,Junior Executive,$1.30,75
+272,Senior Quality Engineer,$8.84,19
+273,Staff Accountant II,$8.11,37
+274,Statistician II,$4.78,6
+275,Community Outreach Specialist,$7.15,74
+276,Dental Hygienist,$9.69,10
+277,Recruiter,$5.38,7
+278,Legal Assistant,$0.96,91
+279,Geological Engineer,$8.68,69
+280,Human Resources Manager,$4.86,53
+281,Actuary,$2.78,19
+282,Tax Accountant,$2.69,8
+283,Account Representative I,$8.37,5
+284,Graphic Designer,$5.24,85
+285,Environmental Specialist,$5.54,92
+286,Operator,$1.40,86
+287,Technical Writer,$4.47,60
+288,Nurse,$1.66,54
+289,Clinical Specialist,$8.11,17
+290,Senior Cost Accountant,$3.33,18
+291,Media Manager I,$5.62,88
+292,Help Desk Operator,$1.76,63
+293,Registered Nurse,$4.13,1
+294,Programmer I,$3.20,8
+295,Staff Scientist,$3.80,17
+296,Product Engineer,$6.05,79
+297,Human Resources Manager,$4.51,87
+298,Administrative Officer,$6.87,76
+299,GIS Technical Architect,$5.61,61
+300,Software Engineer III,$1.99,71
+301,Help Desk Technician,$7.20,59
+302,VP Accounting,$5.05,78
+303,Research Assistant III,$1.40,42
+304,Executive Secretary,$3.42,13
+305,Help Desk Technician,$5.39,39
+306,Help Desk Operator,$8.43,65
+307,Junior Executive,$8.74,9
+308,Financial Analyst,$8.22,40
+309,Senior Quality Engineer,$4.30,58
+310,Administrative Officer,$4.01,81
+311,Web Designer IV,$2.88,87
+312,Senior Developer,$6.84,13
+313,Cost Accountant,$1.34,80
+314,Account Executive,$3.78,35
+315,Account Coordinator,$4.24,38
+316,Statistician III,$9.53,56
+317,Registered Nurse,$7.12,65
+318,General Manager,$4.98,15
+319,Human Resources Assistant II,$8.43,74
+320,Environmental Specialist,$5.72,68
+321,Paralegal,$0.67,16
+322,Senior Financial Analyst,$0.60,90
+323,Account Representative III,$0.11,92
+324,VP Quality Control,$7.70,63
+325,Account Executive,$4.66,50
+326,Office Assistant II,$9.16,23
+327,Safety Technician IV,$9.23,56
+328,Human Resources Assistant IV,$8.26,28
+329,Biostatistician II,$4.88,71
+330,Software Test Engineer III,$9.59,40
+331,Social Worker,$6.61,8
+332,Developer III,$3.34,87
+333,VP Marketing,$6.75,15
+334,Systems Administrator I,$6.22,5
+335,Developer II,$1.41,58
+336,Senior Financial Analyst,$7.99,94
+337,Assistant Manager,$7.19,69
+338,Graphic Designer,$7.70,15
+339,Legal Assistant,$5.44,58
+340,GIS Technical Architect,$0.46,45
+341,Product Engineer,$5.69,48
+342,Chemical Engineer,$8.61,64
+343,Biostatistician II,$2.71,69
+344,Internal Auditor,$8.53,60
+345,Nurse Practicioner,$2.99,1
+346,Paralegal,$6.56,37
+347,Compensation Analyst,$8.75,41
+348,Developer IV,$7.16,69
+349,Desktop Support Technician,$9.04,93
+350,Software Consultant,$6.86,70
+351,Registered Nurse,$1.57,43
+352,Geological Engineer,$2.71,93
+353,Administrative Assistant III,$4.03,13
+354,Software Test Engineer IV,$6.60,66
+355,Community Outreach Specialist,$7.62,16
+356,Developer II,$1.44,18
+357,Senior Sales Associate,$8.89,72
+358,Chief Design Engineer,$7.05,11
+359,Accounting Assistant II,$3.70,10
+360,Marketing Manager,$8.39,26
+361,Media Manager II,$7.82,61
+362,Senior Cost Accountant,$8.80,74
+363,Geologist IV,$4.68,78
+364,Editor,$1.67,65
+365,Sales Representative,$3.18,96
+366,Director of Sales,$3.72,63
+367,Web Designer II,$7.28,15
+368,Financial Analyst,$2.14,1
+369,Financial Advisor,$3.15,31
+370,Executive Secretary,$1.60,29
+371,Nuclear Power Engineer,$7.20,67
+372,Research Associate,$5.93,92
+373,VP Quality Control,$0.15,2
+374,GIS Technical Architect,$1.04,62
+375,Nuclear Power Engineer,$5.35,53
+376,Technical Writer,$2.46,29
+377,VP Sales,$9.55,69
+378,Nuclear Power Engineer,$7.63,68
+379,Physical Therapy Assistant,$1.74,69
+380,VP Sales,$7.01,10
+381,Chemical Engineer,$5.00,7
+382,VP Marketing,$8.78,48
+383,Media Manager IV,$1.62,37
+384,Tax Accountant,$8.23,70
+385,VP Product Management,$3.05,3
+386,Director of Sales,$7.70,62
+387,Database Administrator III,$9.73,10
+388,VP Marketing,$8.40,33
+389,Analog Circuit Design manager,$0.13,33
+390,Administrative Assistant IV,$6.29,36
+391,Technical Writer,$4.98,62
+392,Graphic Designer,$0.62,75
+393,Human Resources Manager,$7.40,9
+394,Recruiter,$9.87,52
+395,Nuclear Power Engineer,$5.22,18
+396,Database Administrator III,$7.59,55
+397,VP Accounting,$6.24,64
+398,Research Nurse,$9.70,87
+399,Administrative Officer,$4.16,31
+400,Computer Systems Analyst III,$2.68,48
+401,VP Accounting,$0.91,19
+402,Environmental Tech,$0.16,22
+403,Teacher,$5.61,71
+404,Senior Financial Analyst,$9.83,71
+405,Budget/Accounting Analyst I,$4.86,26
+406,Chemical Engineer,$1.07,34
+407,Research Assistant IV,$7.66,39
+408,Operator,$6.95,36
+409,Senior Sales Associate,$8.93,64
+410,Financial Advisor,$7.75,57
+411,Data Coordiator,$3.06,44
+412,Occupational Therapist,$6.02,70
+413,Automation Specialist III,$6.86,19
+414,Account Representative II,$2.67,9
+415,Quality Control Specialist,$3.87,44
+416,Social Worker,$5.71,16
+417,Business Systems Development Analyst,$6.48,39
+418,Biostatistician I,$7.67,93
+419,Statistician I,$6.26,70
+420,VP Marketing,$2.31,30
+421,Research Associate,$2.96,34
+422,Developer II,$0.50,41
+423,Senior Cost Accountant,$1.69,41
+424,Research Assistant I,$7.76,5
+425,Actuary,$7.31,52
+426,GIS Technical Architect,$1.86,59
+427,Analog Circuit Design manager,$9.25,91
+428,Web Designer IV,$7.27,78
+429,Paralegal,$6.98,78
+430,Operator,$6.15,35
+431,Professor,$7.91,77
+432,Speech Pathologist,$9.40,8
+433,Nurse,$0.16,13
+434,Research Assistant III,$2.01,51
+435,Compensation Analyst,$2.93,45
+436,Analyst Programmer,$6.77,1
+437,Legal Assistant,$3.99,44
+438,Data Coordiator,$1.04,65
+439,Design Engineer,$4.36,69
+440,Food Chemist,$9.98,3
+441,Senior Editor,$6.46,32
+442,Web Designer IV,$9.02,3
+443,Engineer III,$6.23,54
+444,Geologist I,$1.58,75
+445,VP Quality Control,$1.76,59
+446,Staff Accountant II,$5.76,29
+447,Nurse,$7.33,7
+448,Analog Circuit Design manager,$0.51,17
+449,VP Sales,$7.43,44
+450,VP Accounting,$2.35,98
+451,Research Nurse,$7.82,17
+452,Account Representative I,$7.57,13
+453,Marketing Manager,$2.99,13
+454,Assistant Professor,$2.65,99
+455,Social Worker,$9.40,29
+456,Paralegal,$0.93,47
+457,Engineer I,$9.87,77
+458,Health Coach III,$4.57,74
+459,Web Developer IV,$2.06,68
+460,Sales Representative,$3.38,12
+461,Senior Developer,$8.48,97
+462,Design Engineer,$1.37,32
+463,Media Manager I,$6.42,83
+464,General Manager,$4.83,25
+465,Design Engineer,$6.73,3
+466,Chemical Engineer,$5.50,5
+467,Desktop Support Technician,$5.75,87
+468,Junior Executive,$2.46,55
+469,VP Sales,$8.90,15
+470,Statistician IV,$4.90,10
+471,VP Accounting,$1.71,63
+472,Desktop Support Technician,$6.22,57
+473,Electrical Engineer,$0.91,51
+474,VP Accounting,$9.95,39
+475,Information Systems Manager,$0.74,30
+476,Safety Technician I,$7.67,37
+477,Marketing Assistant,$5.40,73
+478,Assistant Manager,$6.16,72
+479,Physical Therapy Assistant,$6.05,57
+480,VP Accounting,$3.22,63
+481,Help Desk Operator,$1.79,34
+482,Media Manager I,$7.55,31
+483,Product Engineer,$1.37,30
+484,Chief Design Engineer,$2.31,18
+485,General Manager,$9.84,83
+486,Administrative Officer,$5.02,45
+487,Occupational Therapist,$0.39,61
+488,Software Consultant,$1.60,58
+489,Sales Representative,$3.09,74
+490,Web Developer IV,$6.98,88
+491,Desktop Support Technician,$8.51,95
+492,Payment Adjustment Coordinator,$2.52,6
+493,Associate Professor,$8.27,65
+494,Project Manager,$5.67,87
+495,Environmental Specialist,$7.69,7
+496,Information Systems Manager,$5.61,38
+497,Food Chemist,$0.62,69
+498,Information Systems Manager,$6.27,1
+499,Operator,$3.35,36
+500,Occupational Therapist,$0.20,57
+501,Professor,$7.61,90
+502,Assistant Manager,$1.06,7
+503,Administrative Officer,$0.26,96
+504,Director of Sales,$5.97,54
+505,Structural Engineer,$7.45,53
+506,Statistician II,$9.16,25
+507,Help Desk Technician,$9.35,60
+508,Structural Analysis Engineer,$4.92,96
+509,Graphic Designer,$9.95,63
+510,Human Resources Assistant I,$1.72,75
+511,Civil Engineer,$5.70,30
+512,Assistant Professor,$4.34,8
+513,Staff Scientist,$1.41,53
+514,Database Administrator III,$6.94,46
+515,Sales Associate,$3.84,87
+516,Web Developer IV,$0.10,73
+517,Mechanical Systems Engineer,$0.13,73
+518,Electrical Engineer,$9.41,90
+519,Graphic Designer,$2.42,83
+520,Physical Therapy Assistant,$4.62,70
+521,Food Chemist,$6.63,15
+522,Administrative Assistant I,$0.74,87
